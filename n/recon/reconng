@@ -1,0 +1,34 @@
+
+#########################################################RECON-NG#######################################################################
+
+sudo dpkg-reconfigure tzdata
+
+ sudo apt install git python3-pip python3-setuptools
+ 
+ sudo git clone https://github.com/lanmaster53/recon-ng.git
+ 
+ cd recon-ng/
+ 
+ pip3 install -r REQUIREMENTS
+ 
+./recon-ng --version
+
+./recon-ng
+
+marketplace refresh
+ 
+marketplace search hackertarget
+
+ marketplace install recon/domains-hosts/hackertarget
+
+ modules load recon/domains-hosts/hackertarget
+ 
+ info
+ 
+  options set SOURCE checkpoint.com
+  
+  run
+  
+  dashboard
+  
+  show hosts
