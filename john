@@ -1,0 +1,12 @@
+  222  touch one.txt two.txt thr.txt four.txt
+  223  nano pass.txt
+  224  nano one.txt two.txt thr.txt four.txt
+  225  which zip
+  226  sudo apt install zip
+  227  sudo apt install zip unzip john
+  228  ls
+  229  zip --password admin djay.zip one.txt two.txt thr.txt four.txt
+  230  ls
+  231  unzip djay.zip
+  232  zip2john djay.zip > hash
+  233  john --wordlist=pass.txt hash
